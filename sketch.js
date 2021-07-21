@@ -134,6 +134,27 @@ function setup() {
   World.add(world, poly49);
   poly50 = Matter.Bodies.circle(180, 80, 15, P_options);
   World.add(world, poly50);
+  
+  poly51 = Matter.Bodies.circle(180, 80, 15, P_options);
+  World.add(world, poly51);
+  poly52 = Matter.Bodies.circle(180, 80, 15, P_options);
+  World.add(world, poly52);
+  poly53 = Matter.Bodies.circle(180, 80, 15, P_options);
+  World.add(world, poly53);
+  poly54 = Matter.Bodies.circle(180, 80, 15, P_options);
+  World.add(world, poly54);
+  poly55 = Matter.Bodies.circle(180, 80, 15, P_options);
+  World.add(world, poly55);
+  poly56 = Matter.Bodies.circle(180, 80, 15, P_options);
+  World.add(world, poly56);
+  poly57 = Matter.Bodies.circle(180, 80, 15, P_options);
+  World.add(world, poly57);
+  poly58 = Matter.Bodies.circle(180, 80, 15, P_options);
+  World.add(world, poly58);
+  poly59 = Matter.Bodies.circle(180, 80, 15, P_options);
+  World.add(world, poly59);
+  poly60 = Matter.Bodies.circle(180, 80, 15, P_options);
+  World.add(world, poly60);
 
   groundS = new Ground(200, 398, width, 20);
   groundR = new Ground(397, 199, 20, height - 20);
@@ -209,4 +230,14 @@ function draw() {
   image(poly, poly48.position.x, poly48.position.y, 40, 40);
   image(poly, poly49.position.x, poly49.position.y, 40, 40);
   image(poly, poly50.position.x, poly50.position.y, 40, 40);
+  image(poly, poly51.position.x, poly51.position.y, 40, 40);
+  image(poly, poly52.position.x, poly52.position.y, 40, 40);
+  image(poly, poly53.position.x, poly53.position.y, 40, 40);
+  image(poly, poly54.position.x, poly54.position.y, 40, 40);
+  image(poly, poly55.position.x, poly55.position.y, 40, 40);
+  image(poly, poly56.position.x, poly56.position.y, 40, 40);
+  image(poly, poly57.position.x, poly57.position.y, 40, 40);
+  image(poly, poly58.position.x, poly58.position.y, 40, 40);
+  image(poly, poly59.position.x, poly59.position.y, 40, 40);
+  image(poly, poly60.position.x, poly60.position.y, 40, 40);
 }
